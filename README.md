@@ -1,2 +1,4 @@
-# frontend-nanodegree-build-a-portfolio-site
-Udacity frontend nanodegree project 1
+How to run
+===========================================================================
+
+Please open index.html file with your favourite browser.
