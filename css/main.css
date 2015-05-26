@@ -1,0 +1,52 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #666;
+  font-family: Verdana, sans-serif;
+  padding-top: 26px;
+  padding-left: 40px;
+  padding-right: 31px;
+}
+
+h1 {
+  font-size: 48px;
+  padding-bottom: 18px;
+  padding-right:24px;
+}
+
+h2 {
+  color: #f07c17;
+  margin-top: 0;
+  margin-bottom: 28px;
+  font-size: 27px;
+}
+
+.bordered {
+  border: 1px solid #ccc !important;
+  padding: 26px 32px 32px 32px;
+  margin-top: 31px;
+}
+
+* {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.col-fixed-375 {
+  width: 375px;
+  position: absolute;
+  height: 100%;
+}
+
+.col-offset-375 {
+  padding-left: 407px;
+  padding-right: 28px;
+}
