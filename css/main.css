@@ -1,5 +1,5 @@
 body {
-  margin: 36px 0px 36px 0px;
+  margin: 36px 0px 20px 0px;
   font-family: 'Roboto', sans-serif;
   color: #747704;
 }
@@ -57,6 +57,7 @@ body {
 
 .featured-item {
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .featured-item-image {
