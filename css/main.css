@@ -18,16 +18,21 @@ h3 {
 }
 
 a:link {
- color: #747704 /*The color of the link*/
-}
-a:visited {
- color: #bcbbbb /*The color of the visited link*/
-}
-a:hover {
- color: #f8981c /*The color of the mouseover or 'hover' link*/
+  color: #747704 /*The color of the link*/
 }
 
-a, a .action_box { text-decoration: none; }
+a:visited {
+  color: #bcbbbb /*The color of the visited link*/
+}
+
+a:hover {
+  color: #f8981c /*The color of the mouseover or 'hover' link*/
+}
+
+a,
+a .action_box {
+  text-decoration: none;
+}
 
 .header {
   text-align: right;
