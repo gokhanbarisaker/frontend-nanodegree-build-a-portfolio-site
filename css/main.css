@@ -4,6 +4,19 @@ body {
   color: #747704;
 }
 
+h1 {
+  font-size: 58px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 .header {
   text-align: right;
   display: flex;
@@ -11,15 +24,6 @@ body {
 
 .header-info {
   margin: auto 0px auto 0px;
-}
-
-.header-info-title {
-  font-size: 58px;
-  font-weight: 100;
-}
-
-.header-info-subtitle {
-  font-size: 20px;
 }
 
 .header-logo {
@@ -46,7 +50,6 @@ body {
 
 .featured-title {
   color: #bcbbbb;
-  font-size: 35px;
 }
 
 .featured-container {
@@ -62,10 +65,6 @@ body {
   width: 100%;
   margin-bottom: 10px;
   object-fit: cover;
-}
-
-.featured-item-title {
-  font-size: 35px;
 }
 
 .featured-item-link {
