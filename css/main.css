@@ -34,9 +34,14 @@ a .action_box {
   text-decoration: none;
 }
 
-.header {
+header {
   text-align: right;
   display: flex;
+}
+
+section {
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .header-info {
@@ -71,11 +76,6 @@ a .action_box {
 
 .featured-container {
   margin-top: 4px;
-}
-
-.featured-item {
-  text-align: center;
-  margin-bottom: 16px;
 }
 
 .featured-item-image {
